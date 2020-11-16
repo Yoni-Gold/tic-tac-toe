@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to Use
 
-First run run:
+First run:
 
 ### `npm install`
 
