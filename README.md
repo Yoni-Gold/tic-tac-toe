@@ -12,6 +12,6 @@ Then you can just:
 
 ### `npm run server`
 
-This will launch the server if the game.<br />
+This will launch the server of the game.<br />
 
 Now you can go to localhost/3001 in your browser and enjoy a game of Tic-Tac-Toe.
