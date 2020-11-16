@@ -1,38 +1,69 @@
 .App {
   text-align: center;
+  display: grid;
+  padding: 10px;
+  background-color: black;
+  grid-template-columns: auto auto auto;
+  width: 500px;
+  height: 500px;
+  grid-gap: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.griditem {
+  outline: none;
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: 120px;
+  border: 4px solid rgba(0, 0, 0, 0.8);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal {
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+  padding: 400px;
 }
+
+.paper {
+  display: inline-block;
+  width: 400px;
+  background-color: rgb(128, 128, 128);
+  border: 2px solid #000;
+  box-shadow: 2px 2px black ;
+  padding:3px;
+}
+
+#controlButtons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  justify-items: space-between;
+  padding: 5px;
+}
+
+.b {
+  background: transparent;
+  width: 150px;
+  border: 6px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.b:active {
+  background-color: lightgray;
+}
+
